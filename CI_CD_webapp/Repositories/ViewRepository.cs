@@ -15,7 +15,7 @@ namespace CI_CD_webapp
 
         public string getGreeting()
         {
-            return _greetengs + " user";
+            return _greetengs + " Denis";
         }
 
         public string GreetMe(string name)
