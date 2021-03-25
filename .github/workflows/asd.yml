@@ -20,6 +20,6 @@ jobs:
         install: true
     -
       name: Build
-      working-directory: ./Dockerfile
+      working-directory: ./CI_CD_webapp/
       run: |
         docker build .
