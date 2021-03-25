@@ -20,6 +20,6 @@ jobs:
         install: true
     -
       name: Build
-      working-directory: ./
+      working-directory: ./Dockerfile
       run: |
         docker build .
