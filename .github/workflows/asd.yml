@@ -16,5 +16,5 @@ jobs:
     - name: Directory
       run: 
         ls -all
-        cd CI_CD_webapp/
+        cd CI_CD_webapp
         ls -all
