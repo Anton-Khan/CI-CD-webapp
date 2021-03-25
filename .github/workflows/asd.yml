@@ -15,6 +15,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Directory
       run: 
-        ls -all
+        ls 
         cd CI_CD_webapp
-        ls -all
+        ls 
