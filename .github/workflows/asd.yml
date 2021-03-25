@@ -20,7 +20,5 @@ jobs:
         install: true
     -
       name: Build
-      run: 
-       cd CI-CD-webapp
-        |
-        docker build .
+      run: |
+        docker build CI-CD-webapp/ .
